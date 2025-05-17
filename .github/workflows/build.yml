@@ -29,7 +29,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          release_name: Latest APK Build
+          name: Latest APK Build
           body: |
             This is an automated APK build from main branch.
           files: build/app/outputs/flutter-apk/app-release.apk
